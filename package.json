@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "prettier": "prettier --config .prettierrc src/**/*.ts --write"
+    "prettier": "prettier --config .prettierrc src/**/*.ts --write",
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "",
